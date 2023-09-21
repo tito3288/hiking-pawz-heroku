@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname + `/public`)));
+app.use(express.static(path.join(__dirname, "client/build")));
 app.use(express.json());
 
 //THIS POST IS FOR PAYMENT FORM IN STRIPE
@@ -80,6 +80,10 @@ app.post("/checkout", async (req, res) => {
       url: session.url,
     })
   );
+});
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/build/index.html"));
 });
 
 app.listen(process.env.PORT || 4000, () =>
