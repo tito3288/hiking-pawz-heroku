@@ -85,7 +85,7 @@ app.post("/checkout", async (req, res) => {
 if (process.env.NODE_ENV === "production") {
   // Express will serve up production assets
   // like main.js or main.css
-  app.use(express.static("client/build"));
+  app.use(express.static(path.join(__dirname, "client/build")));
 
   // Express will serve up the index.html file if
   // it doesnt recognize the route
