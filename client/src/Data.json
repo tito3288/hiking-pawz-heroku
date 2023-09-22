@@ -1,0 +1,33 @@
+[
+  { "id": 1, "title": "Home Page", "link": "http://localhost:3000/" },
+  {
+    "id": 2,
+    "title": "Contact Us",
+    "link": "http://localhost:3000/Contact-Us"
+  },
+  {
+    "id": 3,
+    "title": "About Us",
+    "link": "http://localhost:3000/AboutUs"
+  },
+  {
+    "id": 4,
+    "title": "Returns And Exchanges",
+    "link": "http://localhost:3000/Exchanges-Returns"
+  },
+  {
+    "id": 5,
+    "title": "Terms and Policies",
+    "link": "http://localhost:3000/"
+  },
+  {
+    "id": 5,
+    "title": "Help",
+    "link": "http://localhost:3000/Contact-Us"
+  },
+  {
+    "id": 5,
+    "title": "How to Make a Return",
+    "link": "http://localhost:3000/Exchanges-Returns"
+  }
+]

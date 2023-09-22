@@ -1,0 +1,888 @@
+/* Desktop Screen Size  */
+
+.navbar {
+  background-color: #171717;
+  z-index: 20;
+  width: 100%;
+  transition: 0.4s;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.card-collar-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 35px;
+  color: white;
+}
+
+.card-collar-price {
+  font-size: 20px;
+  color: white;
+  font-family: "Tilt Neon", cursive;
+  font-size: 25px;
+}
+
+.card-image {
+  padding: 20px 20px;
+  border-radius: 40px;
+}
+
+.video {
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 8%;
+}
+
+.carousel-section {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-items {
+  margin-top: 8%;
+}
+
+.carousel {
+  height: 1010px;
+  width: 90%;
+  /* border-radius: 20px; */
+}
+
+.carousel-caption {
+  margin: 5% auto;
+  opacity: 0.8;
+}
+.carousel-caption-logo {
+  margin: 1% auto;
+  opacity: 0.7;
+}
+
+.carousel-caption-image {
+  width: 100%;
+  height: 100%;
+}
+
+.terra-carousel {
+  border: solid wheat;
+  background-color: #3c2317;
+  width: 400px;
+  height: 100%;
+  margin: auto auto;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 80px;
+  font-family: "Amatic SC", cursive;
+  color: wheat;
+}
+
+.thor-carousel {
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-width: 4px;
+  border-style: solid;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, red, yellow, green) border-box;
+  border: 4px solid transparent;
+  background-color: white;
+  width: 400px;
+  height: 100%;
+  margin: auto auto;
+
+  font-size: 80px;
+  font-family: "Amatic SC", cursive;
+  color: red;
+}
+
+.mission-container {
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.missionDesBackground {
+  background-color: #171717;
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;
+  padding: 20px 20px;
+}
+
+.mission-image1 {
+  margin: 8% 10%;
+  width: 80%;
+  padding: 20px 20px;
+  border-radius: 40px;
+}
+
+.mission-image2 {
+  margin: auto 10%;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.missionDesMaroon {
+  background-color: #6a0000;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 30px 30px;
+  color: white;
+  border-radius: 30px;
+}
+
+.missionDesMaroon-content {
+  margin: 20% auto;
+}
+
+.missionDesMaroon h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 70px;
+}
+
+.missionDesMaroon p {
+  font-family: "Tilt Neon", cursive;
+  font-size: 30px;
+}
+
+.logo-outline {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 60%;
+  background-color: #171717;
+  box-shadow: -8px -10px 15px rgb(255, 255, 255, 0.1),
+    15px 15px 15px rgb(0, 0, 0, 0.3),
+    inset -1px -5px 5px rgb(255, 255, 255, 0.1),
+    inset 5px 5px 5px rgb(0, 0, 0, 0.3);
+}
+
+.cart {
+  /* margin: auto auto; */
+  box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.5);
+}
+
+.cart:active {
+  background-color: #121212;
+}
+
+.nav-cart-toggle {
+  margin-left: 50%;
+}
+
+.nav-image {
+  width: 150px;
+  margin-left: 50%;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 140px;
+  margin-left: 3%;
+}
+
+.home-link {
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 5px 10px 5px rgb(0, 0, 0, 0.5);
+  color: #6b011f;
+  padding: 8px 8px;
+  margin: auto auto;
+}
+
+.home-link:active {
+  color: #6b011f;
+  background-color: #121212;
+}
+
+.navbar-links {
+  margin-left: 10px;
+}
+
+.item-page-outline {
+  width: 100%;
+  height: 100%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  border-radius: 20px;
+  box-shadow: -8px -10px 15px rgb(255, 255, 255, 0),
+    15px 15px 15px rgb(0, 0, 0, 0.1), inset -5px -5px 5px rgb(0, 0, 0, 0.4),
+    inset 5px 5px 5px rgb(0, 0, 0, 0.4);
+}
+
+.item-page-outline li {
+  font-size: 20px;
+  font-family: "Tilt Neon", cursive;
+}
+
+.item-page-border-right {
+  border-right: solid 10px #121212;
+}
+
+.item-image {
+  width: 80%;
+  margin-left: 10%;
+  /* box-shadow: -1px 0px 35px rgb(0, 0, 0, 0.8); */
+}
+
+.swiperslide1 {
+  padding: 120px 38px;
+}
+
+.swiperslide2 {
+  padding: 1px 18px;
+}
+
+.wrapper {
+  height: 30px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+  border-radius: 12px;
+  box-shadow: 0 5px 5px black;
+  color: #6b011f;
+}
+
+.wrapper span {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.wrapper span.num {
+  font-size: 15px;
+  border-right: solid 1px black;
+  border-left: solid 1px black;
+}
+
+.collar-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+  color: white;
+}
+
+.price-title {
+  font-family: "Tilt Neon", cursive;
+  font-size: 25px;
+  color: white;
+}
+
+.shipping-title {
+  font-size: 15px;
+  color: white;
+}
+
+.size-title {
+  color: white;
+  font-family: "Tilt Neon", cursive;
+}
+
+.quantity-title {
+  color: white;
+  font-family: "Tilt Neon", cursive;
+}
+
+.checkout-size-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 35px;
+  color: white;
+}
+
+.item-row li {
+  color: white;
+}
+
+.productDescriptionSection-img {
+  margin: auto auto;
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.productDescriptionSection2 {
+  background-color: #171717;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  width: 600px;
+  height: 500px;
+  height: 100%;
+  margin-left: 50%;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.productDescriptionSection2 h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 70px;
+}
+
+.productDescriptionSection2 p {
+  font-family: "Tilt Neon", cursive;
+  font-size: 30px;
+}
+
+.subscription {
+  width: 1000px;
+  height: 500px;
+  background-color: #171717;
+  margin: 10% auto;
+  display: flex;
+  border-radius: 30px;
+  box-shadow: -8px -10px 15px rgb(255, 255, 255, 0),
+    15px 15px 15px rgb(0, 0, 0, 0.1),
+    inset -1px -5px 5px rgb(255, 255, 255, 0.1),
+    inset 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.subscription2 {
+  width: 1000px;
+  height: 500px;
+  background-color: #171717;
+  margin: 10% auto;
+  border-radius: 30px;
+  box-shadow: -8px -10px 15px rgb(255, 255, 255, 0),
+    15px 15px 15px rgb(0, 0, 0, 0.1),
+    inset -1px -5px 5px rgb(255, 255, 255, 0.1),
+    inset 5px 5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.subscription p {
+  padding: 10px 10px;
+}
+
+.subscription-header {
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+}
+
+.subscription-email-title {
+  font-size: 30px;
+  font-family: "Tilt Neon", cursive;
+}
+
+.subscription-submit-btn {
+  font-family: "Tilt Neon", cursive;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.product-background {
+  background-color: #171717;
+  /* min-height: 120vh; */
+  background-image: url(https://www.transparenttextures.com/patterns/black-paper.png);
+}
+
+/*this is the class for the entire fotter background*/
+.footer {
+  display: flex;
+  background-color: #171717;
+  height: 100%;
+  margin-top: auto;
+  width: 100%;
+}
+
+.footer-trademark {
+  color: #6b011f;
+  padding: 50px 1px;
+  font-size: 20px;
+  /* margin: auto auto; */
+  width: 100%;
+  margin-right: 10%;
+  margin-top: auto;
+  /* margin-left: 30%;
+  margin-bottom: 30px; */
+}
+
+.footer-policies {
+  margin-left: 2%;
+  padding-top: 50px;
+  color: #6b011f;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.success-subs-dog {
+  width: 600px;
+  margin-top: 30px;
+}
+
+.success-subs-title {
+  color: white;
+  font-family: "Tilt Neon", cursive;
+}
+
+.subs-homepage-btn {
+  margin-top: 30px;
+  margin-right: 90%;
+  background-color: #6b011f;
+  border: none;
+}
+
+/* THIS COTROLS THE LAYOUT OF BOTH SWIPER IMAGES */
+.slider-contanier {
+  margin-top: 20%;
+  max-width: 100%;
+}
+
+/* THIS STYLES THE BULLETS LAYOUT */
+.slider-controler {
+  margin-top: 10%;
+}
+
+/* THESE ARE THE STYLES FOR THE BULLETS IN OUR IMAGE SLIDER */
+.swiper-pagination .swiper-pagination-bullet {
+  background: white;
+  width: 15px;
+  height: 15px;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: #6b011f;
+  width: 15px;
+  height: 15px;
+}
+
+/* THESE LAYOUT CSS ARE FOR TABLET USERS BUT IT ALSO APPLYS TO MOBILE USERS SINVE WE DID NOT CREATE A LAYOUT OF MAX-WIDTH: 600PX AT THE VERY END    */
+
+/* Mobile screen size */
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #171717;
+    z-index: 20;
+    width: 100%;
+    transition: 0.4s;
+    overflow: hidden;
+  }
+
+  .card {
+    width: 10rem;
+  }
+
+  .card-collar-title {
+    font-family: "Amatic SC", cursive;
+    font-size: 25px;
+  }
+
+  .card-collar-price {
+    font-size: 15px;
+    font-family: "Tilt Neon", cursive;
+  }
+
+  .card-image {
+    padding: 10px 10px;
+    border-radius: 20px;
+  }
+
+  .video {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .carousel-section {
+    display: flex;
+  }
+
+  .carousel-items {
+    margin-top: 30%;
+  }
+
+  .carousel {
+    height: 300px;
+    width: 100%;
+  }
+
+  .carousel-caption {
+    margin: 5% auto;
+  }
+
+  .carousel-caption-logo {
+    margin: auto auto;
+    opacity: 1;
+  }
+
+  .terra-carousel {
+    border: solid wheat;
+    background-color: #3c2317;
+    width: 200px;
+    height: 100%;
+    margin: auto auto;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 35px;
+    font-family: "Amatic SC", cursive;
+    color: wheat;
+  }
+
+  .thor-carousel {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-width: 4px;
+    border-style: solid;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to right, red, yellow, green) border-box;
+    border: 4px solid transparent;
+    background-color: white;
+    width: 200px;
+    height: 100%;
+    margin: auto auto;
+    font-size: 35px;
+    font-family: "Amatic SC", cursive;
+    color: red;
+  }
+
+  .offcanvas {
+    width: 90%;
+  }
+
+  .nav-image {
+    width: 90px;
+    border-radius: 50%;
+  }
+
+  .cart {
+    box-shadow: none;
+  }
+
+  .nav-cart-toggle {
+    margin-left: 10%;
+    padding: 30px 30px;
+  }
+
+  .nav-toggle .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(107,1,31, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    border: none;
+    opacity: 0.7;
+  }
+
+  .home-link {
+    color: #6b011f;
+    box-shadow: none;
+  }
+
+  .navbar-links {
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+
+  .logo-outline {
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 5%;
+    border-radius: 50%;
+    margin-left: 60%;
+    background-color: #171717;
+    box-shadow: -8px -10px 15px rgb(255, 255, 255, 0.1),
+      15px 15px 15px rgb(0, 0, 0, 0.4),
+      inset -1px -5px 5px rgb(255, 255, 255, 0.1),
+      inset 5px 5px 5px rgb(0, 0, 0, 0.1);
+  }
+
+  .logo {
+    width: 70px;
+    margin-left: 5%;
+  }
+
+  .item-page-outline {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+    margin-top: 40%;
+    border-radius: 20px;
+    box-shadow: -8px -10px 15px rgb(255, 255, 255, 0),
+      15px 15px 15px rgb(0, 0, 0, 0.1), inset -5px -5px 5px rgb(0, 0, 0, 0.4),
+      inset 5px 5px 5px rgb(0, 0, 0, 0.4);
+  }
+
+  .item-page-outline li {
+    font-size: 15px;
+  }
+
+  .item-page-border-right {
+    border-right: none;
+  }
+
+  .item-row {
+    text-align: center;
+  }
+
+  .item-image {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0;
+    /* box-shadow: -1px 0px 25px rgb(0, 0, 0, 0.8); */
+  }
+
+  .swiperslide1 {
+    padding: 45px 18px;
+  }
+
+  .swiperslide2 {
+    padding: 1px 38px;
+    margin-top: -40px;
+  }
+
+  .wrapper {
+    height: 25px;
+    width: 80px;
+    display: flex;
+    /* margin-left: 38%; */
+    margin: auto auto;
+    background-color: #121212;
+    color: #6b011f;
+  }
+
+  .wrapper span {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .wrapper span.num {
+    font-size: 15px;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+  }
+
+  .checkout-size-title {
+    font-family: "Amatic SC", cursive;
+    font-size: 30px;
+  }
+
+  .collar-title {
+    font-size: 40px;
+    font-family: "Amatic SC", cursive;
+  }
+
+  .price-title {
+    font-size: 20px;
+    font-family: "Kosugi Maru", sans-serif;
+  }
+
+  .shipping-title {
+    font-size: 10px;
+  }
+
+  .size-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Kosugi Maru", sans-serif;
+  }
+
+  .quantity-title {
+    font-size: 20px;
+    font-family: "Kosugi Maru", sans-serif;
+  }
+
+  .product-background {
+    background-color: #171717;
+    /* min-height: 120vh; */
+    background-image: url(https://www.transparenttextures.com/patterns/black-paper.png);
+  }
+
+  .mission-container {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .missionDesBackground {
+    background-color: #171717;
+    height: 100%;
+    padding: 20px 20px;
+    color: wheat;
+    border-radius: 20px;
+  }
+
+  .mission-image1 {
+    margin: auto auto;
+    width: 100%;
+    border-radius: 40px;
+  }
+
+  .mission-image2 {
+    width: 70%;
+    border-radius: 20px;
+  }
+
+  .missionDesMaroon {
+    background-color: #6a0000;
+    text-align: center;
+    color: white;
+    font-size: small;
+    height: 100%;
+    padding: 30px 30px;
+    border-radius: 20px;
+  }
+
+  .missionDesMaroon-content {
+    margin: auto auto;
+  }
+
+  .missionDesMaroon h1 {
+    font-size: 40px;
+  }
+
+  .missionDesMaroon p {
+    font-size: 15px;
+  }
+
+  .productDescriptionSection-img {
+    margin: auto auto;
+    width: 60%;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+
+  .productDescriptionSection2 {
+    background-color: #171717;
+    text-align: center;
+    font-size: small;
+    width: 80%;
+    height: 100%;
+    padding: 20px 20px;
+    color: white;
+    margin-left: 17%;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+
+  .productDescriptionSection2 h1 {
+    font-family: "Amatic SC", cursive;
+    font-size: 40px;
+  }
+
+  .productDescriptionSection2 p {
+    font-size: 15px;
+  }
+
+  .subscription {
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+    background-color: #171717;
+    margin: 10% auto;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: -8px -10px 15px rgb(255, 255, 255, 0),
+      15px 15px 15px rgb(0, 0, 0, 0.1),
+      inset -1px -5px 5px rgb(255, 255, 255, 0.1),
+      inset 5px 5px 5px rgb(0, 0, 0, 0.5);
+    background-image: "url(black-felt.png)";
+  }
+
+  .subscription p {
+    padding: 10px 10px;
+  }
+
+  .subscription-header {
+    font-size: 25px;
+  }
+
+  .subscription-email-title {
+    font-size: 15px;
+  }
+
+  .subscription-submit-btn {
+    color: white;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+  }
+
+  .sub-text {
+    font-size: 10px;
+  }
+
+  .footer {
+    background-color: #171717;
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .footer-trademark {
+    color: #6b011f;
+    width: 100%;
+    font-size: 10px;
+    margin-right: 28%;
+    font-weight: bold;
+  }
+
+  .footer-policies {
+    /* display: flex; */
+    margin-left: 3%;
+    margin-top: -30px;
+    color: #6b011f;
+    font-size: 10px;
+    display: inline-block;
+    width: 100%;
+    /* margin-top: 5%; */
+  }
+
+  .success-subs-dog {
+    width: 300px;
+    margin-top: 30px;
+  }
+
+  .success-subs-title {
+    color: white;
+    font-size: 30px;
+  }
+
+  .subs-homepage-btn {
+    margin-right: 60%;
+    margin-top: 30px;
+    background-color: #6b011f;
+    border: none;
+  }
+
+  /* THIS IS WHERE OUR STYLES FOR OUR SLIDER IMAGED BEGGIN */
+  .slider-contanier {
+    margin-top: 10px;
+    max-width: 100%;
+  }
+
+  .slider-controler {
+    margin-top: 15%;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet {
+    background: white;
+    width: 15px;
+    height: 15px;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet-active {
+    background: #6b011f;
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/* THE CODE UNDERNEATH IS JUST TO CREATE LAYOUTS FOR MOBILE USERS ⬇️ */
+
+/* @media (max-width: 600px) {
+  .nav-cart-toggle {
+    margin-left: 90%;
+  }
+} */
