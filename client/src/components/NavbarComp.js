@@ -31,7 +31,7 @@ const NavbarComp = () => {
 
   //to connect to node stripe api
   const checkout = async () => {
-    await fetch("http://localhost:4000/checkout", {
+    await fetch("/checkout", {
       method: "POST",
       headers: {
         "content-type": "application/json",
