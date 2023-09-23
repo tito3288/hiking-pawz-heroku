@@ -17,6 +17,7 @@ import { motion } from "framer-motion";
 import SearchBar from "./SearchBar";
 import Data from "../Data.json";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 const NavbarComp = () => {
   //to show the modal
@@ -32,7 +33,7 @@ const NavbarComp = () => {
   //to connect to node stripe api
   const checkout = async () => {
     try {
-      await fetch("https://arcane-eyrie-27716.herokuapp.com/checkout", {
+      await fetch("/checkout", {
         method: "POST",
         headers: {
           "content-type": "application/json",
