@@ -31,21 +31,31 @@ const NavbarComp = () => {
 
   //to connect to node stripe api
   const checkout = async () => {
-    await fetch("/checkout", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify({ items: cart.items }),
-    })
-      .then((response) => {
-        return response.json();
+    try {
+      await fetch("https://arcane-eyrie-27716.herokuapp.com/checkout", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify({ items: cart.items }),
       })
-      .then((response) => {
-        if (response.url) {
-          window.location.assign(response.url);
-        }
-      });
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
+        .then((response) => {
+          if (response.url) {
+            window.location.assign(response.url);
+          }
+        });
+    } catch (error) {
+      console.error(
+        "There has been a problem with your fetch operation:",
+        error
+      );
+    }
   };
 
   window.addEventListener("scroll", scrollFunction);
