@@ -3,9 +3,7 @@ var cors = require("cors");
 const bodyParser = require("body-parser");
 const path = require("path");
 require(`dotenv`).config();
-const stripe = require("stripe")(
-  "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"
-);
+const stripe = require("stripe")(process.env.STRIPE_API_KEY);
 
 console.log(stripe);
 
