@@ -179,6 +179,7 @@ const NavbarComp = () => {
 
         <Navbar.Collapse className="justify-content-end"></Navbar.Collapse>
       </Navbar>
+
       <Modal show={show} onHide={() => showFunc(false)}>
         <Modal.Header closeButton>
           <Modal.Title style={{ textAlign: "center" }}>

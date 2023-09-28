@@ -131,10 +131,15 @@
   padding: 30px 30px;
   color: white;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Adjust as needed */
 }
 
 .missionDesMaroon-content {
-  margin: 20% auto;
+  text-align: center; /* For centering text elements horizontally */
+  /* Additional styles here if needed */
 }
 
 .missionDesMaroon h1 {
@@ -169,7 +174,7 @@
 }
 
 .nav-cart-toggle {
-  margin-left: 50%;
+  margin-left: 45%;
 }
 
 .nav-image {
