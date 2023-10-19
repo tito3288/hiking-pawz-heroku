@@ -3,6 +3,8 @@ var cors = require("cors");
 const bodyParser = require("body-parser");
 const path = require("path");
 require(`dotenv`).config();
+//MAIN ISSUE OR BUG WOULD BE TO ADDING THIS STRIPE KEY TO HEROKU WHILE BEIN GIN A .ENV FOLDER THAT IS ALSO BEING IGNORE SO HEROKU DOESNT HAVE ACCES TO IT.
+//ANOTHER MAIN ISSUE WOULD BE HAVING THE CLIENT FOLDER AS A SUBMODULE WITH ITS OWN GIT REPO, DELETE THE REPO ON CLIENT FOLDER (NOT MAIN REPO AT THE ROOT) AND BRING IT OUT TO THE ROOT GIT REPO FOR HEROKU TO HAVE ACCESS TO IT.
 const stripe = require("stripe")(process.env.STRIPE_API_KEY);
 
 console.log(stripe);
@@ -83,6 +85,19 @@ app.post("/checkout", async (req, res) => {
     })
   );
 });
+
+app.get(
+  "/.well-known/apple-developer-merchantid-domain-association",
+  (req, res) => {
+    res.sendFile(
+      path.join(
+        __dirname,
+        ".well-known",
+        "apple-developer-merchantid-domain-association"
+      )
+    );
+  }
+);
 
 app.get("*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
